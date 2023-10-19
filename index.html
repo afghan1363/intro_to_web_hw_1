@@ -292,7 +292,8 @@
                             <form>
                                 <div class="mb-3">
                                     <div align="left"><label class="form-label">Имя</label></div>
-                                    <input name="name" type="text" class="form-control" id="UserName" aria-describedby="emailHelp">
+                                    <input name="name" type="text" class="form-control" id="UserName"
+                                           aria-describedby="emailHelp">
                                 </div>
                                 <div class="mb-3">
                                     <div align="left"><label class="form-label">EMail</label></div>
@@ -309,20 +310,20 @@
                 </div>
                 <h3 class="my-3 fw-normal">FAQ(ЧаВо)</h3>
                 <div class="col">
-                <p class="d-inline-flex gap-5">
+                    <p class="d-inline-flex gap-5">
 
-                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
-                       aria-expanded="false" aria-controls="multiCollapseExample1">Как купить?</a>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#multiCollapseExample2" aria-expanded="false"
-                            aria-controls="multiCollapseExample2">Доставка
-                    </button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#multiCollapseExample3" aria-expanded="false"
-                            aria-controls="multiCollapseExample3">Какая гарантия?
-                    </button>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                           aria-expanded="false" aria-controls="multiCollapseExample1">Как купить?</a>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                                aria-controls="multiCollapseExample2">Доставка
+                        </button>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                                aria-controls="multiCollapseExample3">Какая гарантия?
+                        </button>
 
-                </p>
+                    </p>
                 </div>
                 <div class="row">
                     <div class="col">
@@ -347,6 +348,61 @@
                         </div>
                     </div>
                 </div>
+                <table class="table caption-top">
+                    <caption>Заказы</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Номер</th>
+                        <th scope="col">Название товара</th>
+                        <th scope="col">Цена за штуку</th>
+                        <th scope="col">Количество</th>
+                        <th scope="col">Итоговая сумма</th>
+                        <th scope="col">Статус заказа</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>SSD Intel</td>
+                        <td>5869</td>
+                        <td>10</td>
+                        <td>58690</td>
+                        <td class="alert alert-primary" role="alert">Новый</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>FlashDrive KingStone 32GB</td>
+                        <td>586</td>
+                        <td>100</td>
+                        <td>58600</td>
+                        <td class="alert alert-warning" role="alert">Обработка</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>AMD Radeon 10 Series</td>
+                        <td>523000</td>
+                        <td>5</td>
+                        <td>2615000</td>
+                        <td class="alert alert-success" role="alert">Обработан</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Xiaomi UltraMegaPRO</td>
+                        <td>125000</td>
+                        <td>10</td>
+                        <td>1250000</td>
+                        <td class="alert alert-danger" role="alert">Отмена</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>OPPO Reno 10</td>
+                        <td>59990</td>
+                        <td>5</td>
+                        <td>299950</td>
+                        <td class="alert alert-success" role="alert">Обработан</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
 
         </main>
